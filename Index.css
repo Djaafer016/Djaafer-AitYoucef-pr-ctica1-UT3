@@ -1,0 +1,77 @@
+*{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:100;
+}
+a{
+    color: white;
+}
+header {
+    padding: 10px;
+    text-align: center;
+    background: url(background.jpg);
+}
+nav{
+    display: flex;
+    color: white;
+    background: url(background.jpg);
+    justify-content: space-around;
+}
+
+main {
+    background: url(background.jpg);
+    display: flex;
+}
+
+
+form {
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+p{
+    color: white;
+    height:max-content;
+}
+#DarDeAlta {
+    background-color: rgb(17, 197, 17);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: center;
+}
+footer{
+   
+     text-align: right;
+}
+.tooltip
+{
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext{
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,255,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    align-self: last baseline;
+    visibility: hidden;
+    position: absolute;
+    top: -20px;
+    left: 120%;
+
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
